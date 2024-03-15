@@ -26,6 +26,7 @@ CREATE TABLE vehicleType(
 );
 
 -- create the manufacturer date
+-- 
 
 CREATE TABLE manufacturer(
 
