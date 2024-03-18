@@ -113,6 +113,8 @@ SELECT * FROM model
 
 -- model table
 
+--insert values into the table.
+
 INSERT INTO  model (model_id,model_name,manufacturer_id,price,engine_size,horse_power,
 					wheel_base,width,length_of_car,curb_weight,fuel_capacity,fuel_efficiency,
 					power_performance,car_launch)
