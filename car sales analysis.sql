@@ -477,7 +477,7 @@ SELECT * FROM model
 ALTER TABLE model
 ADD horse_power_category VARCHAR (50);
 
--- populate the column.
+-- populate the columns.
 
 UPDATE model
 SET horse_power_category = (SELECT 
