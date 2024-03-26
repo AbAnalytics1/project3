@@ -627,3 +627,4 @@ ORDER BY SUM(s.sales) DESC
 
 -- from the table below mid-range cars recorded the highest sales 
 -- followed by low- range cars. High performance cars recorded the least sales generating 161,576
+--xm
