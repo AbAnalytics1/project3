@@ -607,7 +607,7 @@ LEFT JOIN manufacturer m
 ON s.manufacturer_id = m.manufacturer_id
 
 
--- what are the top five manufacturer that acquired the highest.
+-- what are the top five manufacturer that acquired the highest revenue.
 
 SELECT TOP(5) m.manufacturer_name, SUM(S.sales) AS revenue_generated
 FROM sales s
