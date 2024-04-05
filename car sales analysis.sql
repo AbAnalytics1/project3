@@ -1,4 +1,4 @@
--- create a new database and name it car sales 
+-- create a new database and name it car sales.
 
 CREATE DATABASE Car_Sales;
 
