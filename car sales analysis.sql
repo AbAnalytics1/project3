@@ -8,7 +8,7 @@ USE Car_Sales;
 
 -- create the 5 tables that will be used for the analysis
 
---calendar table
+-- create the calendar table.
 
 CREATE TABLE calendar(
 
