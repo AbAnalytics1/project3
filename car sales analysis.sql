@@ -2,7 +2,7 @@
 
 CREATE DATABASE Car_Sales;
 
--- use this database and create your tables
+-- use this database and create the tables
 
 USE Car_Sales;
 
