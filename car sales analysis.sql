@@ -1,14 +1,14 @@
--- create a new database and name it car sales 
+-- create a new database and name it car sales table.
 
 CREATE DATABASE Car_Sales;
 
--- use this database and create your tables
+-- use this database and create the tables
 
 USE Car_Sales;
 
 -- create the 5 tables that will be used for the analysis
 
---calendar table
+-- create the calendar table.
 
 CREATE TABLE calendar(
 
@@ -26,6 +26,7 @@ CREATE TABLE vehicleType(
 );
 
 -- create the manufacturer date
+-- 
 
 CREATE TABLE manufacturer(
 
@@ -111,6 +112,8 @@ SELECT * FROM model
 -- insert the values into model table and sales table
 
 -- model table
+
+--insert values into the table.
 
 INSERT INTO  model (model_id,model_name,manufacturer_id,price,engine_size,horse_power,
 					wheel_base,width,length_of_car,curb_weight,fuel_capacity,fuel_efficiency,
@@ -474,7 +477,7 @@ SELECT * FROM model
 ALTER TABLE model
 ADD horse_power_category VARCHAR (50);
 
--- populate the column.
+-- populate the columns.
 
 UPDATE model
 SET horse_power_category = (SELECT 
@@ -604,7 +607,7 @@ LEFT JOIN manufacturer m
 ON s.manufacturer_id = m.manufacturer_id
 
 
--- what are the top five manufacturer that acquired the highest.
+-- what are the top five manufacturer that acquired the highest revenue.
 
 SELECT TOP(5) m.manufacturer_name, SUM(S.sales) AS revenue_generated
 FROM sales s
@@ -624,3 +627,4 @@ ORDER BY SUM(s.sales) DESC
 
 -- from the table below mid-range cars recorded the highest sales 
 -- followed by low- range cars. High performance cars recorded the least sales generating 161,576
+--xm
